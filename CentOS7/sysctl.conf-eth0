@@ -83,5 +83,6 @@ net.ipv4.tcp_max_syn_backlog = 1024
 # Increase the tcp-time-wait buckets pool size
 net.ipv4.tcp_max_tw_buckets = 1440000
  
-# Allowed local port range
-net.ipv4.ip_local_port_range = 16384 65536
+fs.file-max = 500000
+vm.swappiness = 10
+vm.vfs_cache_pressure = 50
