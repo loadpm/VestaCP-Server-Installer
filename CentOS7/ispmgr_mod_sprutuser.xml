@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+<mainmenu level="user">
+<node name="account">
+<node name="sprutuser" />
+</node>
+</mainmenu>
+
+<handler name="myaddon" type="xml">
+<func name="sprutuser" />
+</handler>
+
+<lang name="ru">
+<messages name="desktop">
+<msg name="menu_sprutuser">2 Файловый Менеджер</msg>
+</messages>
+</lang>
+</mgrdata>
