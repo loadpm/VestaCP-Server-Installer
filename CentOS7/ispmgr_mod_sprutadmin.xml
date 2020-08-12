@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+<mainmenu level="admin+">
+<node name="account">
+<node name="sprutadmin" />
+</node>
+</mainmenu>
+
+<handler name="myaddon" type="xml">
+<func name="sprutadmin" />
+</handler>
+
+<lang name="ru">
+<messages name="desktop">
+<msg name="menu_sprutadmin">2 Файловый Менеджер</msg>
+</messages>
+</lang>
+</mgrdata>
